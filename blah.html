@@ -1,0 +1,1223 @@
+<head><script data-original-src="/yts/jsbin/player_ias-vfliSA6ma/nl_NL/remote.js" src="/yts/jsbin/player_ias-vfliSA6ma/nl_NL/remote.js"></script><meta http-equiv="origin-trial" data-feature="Web Components V0" data-expires="2019-08-15" content="AlCKlZ6jrSZT4A279DIcf6KpJmRggEudBrzbIU1GsO8O5TV2OsnjApNBxOFUoM9pZeEKAxfNWit1YjcFsyc1WAcAAABneyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJDb21wb25lbnRzVjAiLCJleHBpcnkiOjE1NjU4OTQzODAsImlzU3ViZG9tYWluIjp0cnVlfQ=="><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};window.ytcfg.set('EMERGENCY_BASE_URL', "\/error_204?t=jserror\u0026level=ERROR\u0026client.version=2.20190702\u0026client.name=1");</script><script>window.ShadyDOM = {force: true};window.ShadyCSS = {disableRuntime: true};window.ShadyDOM.preferPerformance = true;window.ShadyDOM.noPatch = true;window.Polymer = (window.Polymer || {});window.Polymer.legacyOptimizations = true;</script><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png" sizes="32x32"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon_48-vflVjB_Qk.png" sizes="48x48"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144"><title>YouTube</title><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance && window.performance.timing &&window.performance.now) ?function() {return window.performance.timing.navigationStart +window.performance.now();} :function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState && d.webkitVisibilityState)? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}var slt = function(el, t) {setTimeout(function() {var n = ytcsi.now();el.loadTime = n;if (el.slt) {el.slt();}}, t);};w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {if (w.requestAnimationFrame) {w.requestAnimationFrame(function() {slt(el, 0);});} else {slt(el, 16);}}};})(window, document);</script><link rel="preload" href="https://i.ytimg.com/generate_204" as="fetch">  
+<script src="/yts/jsbin/web-animations-next-lite.min-vflluX5aW/web-animations-next-lite.min.js" type="text/javascript" name="web-animations-next-lite.min/web-animations-next-lite.min" class="js-httpswwwyoutubecomytsjsbinwebanimationsnextliteminvflluX5aWwebanimationsnextliteminjs"></script>  
+  
+<script src="/yts/jsbin/custom-elements-es5-adapter-vflsrwHZH/custom-elements-es5-adapter.js" type="text/javascript" name="custom-elements-es5-adapter/custom-elements-es5-adapter" class="js-httpswwwyoutubecomytsjsbincustomelementses5adaptervflsrwHZHcustomelementses5adapterjs"></script>  
+  
+<script src="/yts/jsbin/webcomponents-sd-vflqO-2tZ/webcomponents-sd.js" type="text/javascript" name="webcomponents-sd/webcomponents-sd" class="js-httpswwwyoutubecomytsjsbinwebcomponentssdvflqO2tZwebcomponentssdjs"></script>  
+        <script>if (window.ytcsi) {window.ytcsi.tick("rsbe_dph", null, '');}</script>
+
+<link rel="import" href="/yts/htmlbin/desktop_polymer_sel_auto_svg_home_v2-vflCmGEFy.html" name="desktop_polymer_sel_auto_svg_home_v2">        <script>if (window.ytcsi) {window.ytcsi.tick("rsae_dph", null, '');}</script>
+
+  <script>if (window.ytcsi) {window.ytcsi.tick("lpcs", null, '');}(function() {window.ytplayer = {};ytcfg.set({"HTML_LANG":"nl","DISABLE_YT_IMG_DELAY_LOADING":false,"GAPI_HINT_PARAMS":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.6Hr6HfhQmkw.O\/d=1\/rs=AHpOoo_002wlh5Kwm-a9Vn_hwBzXlB2L_A\/m=__features__","ENABLE_ELEMENT_POOL_POPULATOR":true,"LATEST_ECATCHER_SERVICE_TRACKING_PARAMS":{"client.name":"WEB"},"ENABLE_SERVICE_REQUEST":true,"MINIPLAYER_ENABLED":true,"ENABLE_ELEMENT_POOL_AUTO_ABORT":true,"CLIENT_TRANSPORT":"tcp","INNERTUBE_API_KEY":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","ZWIEBACK_PING_URLS":["https:\/\/www.google.nl\/pagead\/lvz?evtid=ADszL7OR_2GiTJMCCqxwrHAepodwoXwgYlhMaA2xoggTJVOphA5os8alf0kEsKo0nqIJd5CUKYL6JWNhZwbDJG7uozoQ-Uu21Q\u0026pg=index\u0026req_ts=1562435858\u0026sigh=ADRnf4Z9wNw3iw6WPE5MOvQmDdteibVTfg","https:\/\/www.google.com\/pagead\/lvz?evtid=ADszL7Px8m9D0_4tLC7_YCV4JJH8QiUWO67HV6Y4NmxrBczInDJukESt4z9LU9NpLe19eMrh21y0AnKtmBJSyKtQcAx3ZIrJZg\u0026pg=index\u0026req_ts=1562435858\u0026sigh=ADRnf4a3PtSHkbYLIb1dH-aDgUTIidiQLg"],"SESSION_INDEX":0,"ASYNC_WATCH":true,"NO_EMPTY_DATA_IMG":true,"XHR_APIARY_HOST":"youtubei.youtube.com","ENABLE_SELECTIVE_INITIALIZATION":true,"START_IN_THEATER_MODE":false,"COUNTRY":"Nederland","GAPI_HOST":"https:\/\/apis.google.com","HTML_IMPORT_DEFERRED_BUNDLE":true,"DEFERRED_BUNDLE_URL":"https:\/\/s.ytimg.com\/yts\/htmlbin\/desktop_polymer_sel_auto_svg_home_deferred_v2-vflQTeUuY.html","GAPI_LOCALE":"nl_NL","HTML_DIR":"ltr","LOGGED_IN":true,"INNERTUBE_CONTEXT_CLIENT_VERSION":"2.20190702","GOOGLE_FEEDBACK_PRODUCT_DATA":{"accept_language":"nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7","polymer":"active","polymer2":"active"},"START_IN_FULL_WINDOW_MODE":false,"CHANNEL_DEFAULT_BANNER":"https:\/\/s.ytimg.com\/yts\/img\/channels\/c4\/default_banner-vfl7DRgTn.png","GOOGLE_FEEDBACK_PRODUCT_ID":"59","XSRF_TOKEN":"QUFFLUhqa2VmOEdCak9FUkJ3azFWZVkyVUlqNTVHbEFkQXxBQ3Jtc0trektHUHZQZE1KVFgzTDdZeUtGTW5icXk3VnoyMXFVUzJFeEFfamlqeTliUVVzZFlYWXp3Z21CM1hnWF9CZGdMT29mRG5HSXBoaWwzb0EyN21zdWxJbjJPb2VrdTlBY3E4YlJxdDBZWVA1azd6VU1RemRqVV9ERVZXZXpxNWoza0ZpLXcwV2hQWXVSNnowWXZCSlk2OUtqQi1rRHc=","ENABLE_SELECTIVE_REGISTRATION":true,"INNERTUBE_CONTEXT_HL":"nl","RECORD_LONG_TASKS":false,"LANGUAGE":"Nederlands","VISIBILITY_TIME_BETWEEN_JOBS_MS":100,"VISITOR_DATA":"Cgs2Y0t5RkcyY2JxayiSwoPpBQ%3D%3D","PLAYER_JS_URL":"\/yts\/jsbin\/player_ias-vfliSA6ma\/nl_NL\/base.js","INNERTUBE_CONTEXT_GL":"NL","YPC_MB_URL":"https:\/\/payments.youtube.com\/payments\/v4\/js\/integrator.js?ss=md","SBOX_JS_URL":"\/yts\/jsbin\/www-searchbox-vflf3Do2k\/www-searchbox.js","SCHEDULER_SOFT_STATE_TIMER":800,"EXPERIMENT_FLAGS":{"live_chat_top_chat_split":0.5,"ten_video_reordering":[0,1,2,3,6,4,5,7,8,9],"enable_midroll_ad_insertion":true,"enable_live_studio_url":true,"sponsorships_new_offer_screen_desktop":true,"enable_creator_highlights":true,"web_always_load_chat_support":true,"desktop_companion_wta_support":true,"kevlar_mousedown_prefetchable_components":["ytd-playlist-video-renderer","ytd-grid-video-renderer","ytd-compact-video-renderer","ytd-video-renderer","ytd-playlist-panel-video-renderer"],"kevlar_watch_fullerscreen_app_scrolling":true,"external_fullscreen_button_shown_threshold":10,"tvfilm_complete_transaction_grafting":true,"kevlar_disable_background_prefetch":true,"autoescape_tempdata_url":true,"kevlar_no_url_params":true,"kevlar_tooltip_impression_cap":2,"kevlar_disable_di":true,"enable_web_red_carpet_video_as_thumbnail":true,"debug_forced_promo_id":"","enable_webcam_dvr":true,"kevlar_no_early_init_unpause":true,"kevlar_view_playlist_text_no_video_count":true,"service_worker_push_home_only":true,"live_chat_replay_milliqps_threshold":5000,"scheduled_watch_response":true,"service_worker_push_logged_out_prompt_watches":-1,"web_logging_max_batch":100,"kevlar_time_caching_end_threshold":15,"kevlar_use_response_ttl_to_invalidate_cache":true,"enable_servlet_streamz":true,"live_chat_continuation_expiration_usec":300000000,"log_window_onerror_fraction":0.1,"interaction_logging_on_gel_web":true,"enable_more_related_ve_logging":true,"web_memory_bloat_mb":0,"consent_url_override":"","web_system_health_fraction":0.01,"polymer_task_manager_status":"production","retry_web_logging_batches":true,"polymer_simple_endpoint":true,"service_worker_push_enabled":true,"live_chat_unicode_emoji_json_url":"https:\/\/www.gstatic.com\/youtube\/img\/emojis\/emojis-svg-1.json","desktop_polymer":true,"kevlar_history_buttons":true,"enable_afv_div_reset_in_kevlar":true,"log_web_screen_end":true,"web_max_history_cache_size":100,"is_browser_supported_for_live_studio_streaming":true,"kevlar_new_subscribe_button_color":true,"enable_desktop_polymer_video_masthead_upgrade":true,"kevlar_miniplayer_playlist_activate":true,"kevlar_abort_continuation_handler_on_navigate_and_refetch":true,"grid_playlist_view_more_text":true,"kevlar_transcript_engagement_panel":true,"sponsorships_log_with_new_screen":true,"kevlar_snap_state_refresh":true,"kevlar_next_up_next_edu_emoji":"","kevlar_cancellable_service_request":true,"service_worker_push_prompt_delay_ms":3888000000,"web_gel_debounce_ms":10000,"sponsorships_offer_screen_with_video_desktop":true,"kevlar_droppable_prefetchable_requests":true,"decorate_playlist_panel_renderer":true,"web_gel_lact":true,"kevlar_lazy_list_resume_for_autofill":true,"wn_comments_use_gel":true,"enable_signals":true,"kevlar_masthead_skeleton":true,"kevlar_home_skeleton_less_grids":true,"live_chat_message_sampling_rate":4.0,"kevlar_pass_state_as_json_string":true,"your_data_entrypoint":true,"polymer_sel_auto":true,"external_fullscreen":true,"botguard_periodic_refresh":true,"polymer_report_missing_web_navigation_endpoint_rate":0.1,"is_part_of_any_user_engagement_experiment":true,"polymer_selective_registration":true,"kevlar_help_use_locale":true,"kevlar_mealbar_trigger_conditions":true,"kevlar_nitrate_mealbar_button_to_spec":true,"third_party_integration_main":true,"interaction_screen_on_gel_web":true,"kevlar_miniplayer_set_element_early":true,"kevlar_allow_multistep_video_init":true,"enable_web_ketchup_hero_animation":true,"kevlar_real_search_endpoint":true,"kevlar_svg_content_modularization_enabled":true,"service_worker_scope":"\/","kevlar_playlist_collapsible":true,"desktop_polymer_video_masthead_mute_ad_support":true,"cancel_pending_navs":true,"disable_legacy_desktop_remote_queue":true,"kevlar_disable_forward_events_when_not_attached":true,"inline_comment_taller_inbox":true,"external_fullscreen_button_click_threshold":2,"player_swfcfg_cleanup":true,"web_dont_cancel_pending_navigation_same_url":true,"desktop_action_companion_wta_support":true,"kevlar_exit_fullscreen_leaving_watch":true,"kevlar_create_playlist_improvments":true,"enable_desktop_polymer_video_masthead":true,"kevlar_history_nav_new_screen":true,"user_engagement_experiments_rate_limit_ms":86400000,"attach_child_on_gel_web":true,"subthread_ranking":true,"use_polymer2_shadow_dom_no_patch":true,"enable_client_streamz_web":true,"kevlar_stamp_watch_playlist_videos":true,"log_js_exceptions_fraction":0.2,"external_fullscreen_with_edu":true,"enable_live_studio_ux":true,"cold_load_nav_start_web":true,"enable_gel_web_client_event_id":true,"kevlar_manage_subscriptions_link":true,"kevlar_menu_refresh":true,"kevlar_masthead_refactor":true,"enable_classic_encoder_pointback":true,"kevlar_library_v1_edu":true,"kevlar_autonav_popup_filtering":true,"kevlar_better_logging_hides":true,"highlight_clip_creation_ftue_display_option":0,"live_chat_inline_moderation":true,"kevlar_watch_skeleton":true,"warm_load_nav_start_web":true,"enable_red_carpet_experience_web":true,"reload_without_polymer_innertube":true,"third_party_integration_ari":true,"add_old_subscribe_button":true,"enable_youtubei_innertube":true,"kevlar_cancel_scheduled_comment_jobs_on_navigate":true,"rich_grid_thumb_max_width":480,"desktop_keyboard_capture_keydown_killswitch":true,"use_watch_fragments2":true,"twelve_video_reordering":[0,1,2,4,7,8,3,5,6,9,10,11],"desktop_pyv_on_watch_override_lact":true,"log_playback_associated_web":true,"element_pool_populator_auto_abort":true,"web_enable_history_cache_map":true,"polymer2_element_pool_properties":true,"live_chat_update_lact_on_web":true,"kevlar_log_native_right_click_ve":true,"log_web_meta_interval_ms":0,"kevlar_enable_logging_directives":true,"kevlar_settings_page":true,"kevlar_js_fixes":true,"visibility_time_between_jobs_ms":100,"prefetch_comments_ms_after_video":0,"kevlar_watch_fullerscreen_force_body_scrolling":true,"autoplay_time":8000,"polymer_video_renderer_defer_menu":true,"kevlar_sticky_channel_header":true,"desktop_notification_set_title_bar":true,"kevlar_player_stop_by_action":true,"polymer2_polyfill_manual_flush":true,"mentions_linkify_user_mention":true,"kevlar_use_page_data_will_update":true,"kevlar_menu_logging":true,"optimistically_create_transport_client":true,"enable_docked_chat_messages":true,"skip_endpoint_param_comparison":true,"kevlar_enable_search_on_watch_history":true,"desktop_pyv_on_watch_via_valor":true,"user_mention_suggestions_in_posts":true,"high_priority_flyout_frequency":3,"app_settings_snapshot_is_logging_enabled":true,"use_webrtc_ingestor_handshake":true,"recommended_video_reordering":true,"enable_wta_kevlar_watch_pyv":true,"enable_opaque_black_watchcard_hero_overlay_button":true,"flush_onbeforeunload":true,"enable_verified_author_highlights":true,"kevlar_enable_menu_separators":true,"app_settings_snapshot_min_time_between_snapshots_hours":24,"service_worker_push_prompt_delay_microseconds":3888000000000,"remove_web_visibility_batching":true,"kevlar_miniplayer_button":true,"kevlar_searchbox_designs":"legacy-centered","enable_web_poster_hover_animation":true,"interaction_click_on_gel_web":true,"kevlar_enable_editable_playlists":true,"kevlar_disable_fast_player_sizing_on_channel_page":true,"kevlar_library":true,"kevlar_use_chunking_lib":true,"player_unified_fullscreen_transitions":true,"move_desktop_topbar_to_watch_next":true,"web_emulated_idle_callback_delay":0,"polymer_addcreator_settimeout":true,"disable_youthere_lact_threshold_check":true,"enable_watch_next_pause_autoplay_lact":true,"kevlar_update_guide_section":true,"same_domain_static_resources_desktop":true,"kevlar_prefetch":true,"min_mouse_still_duration":20,"cold_missing_history":true,"kevlar_enable_menu_option_rearrangement":true,"polymer_selective_initialization_watch":true,"use_polymer2":true,"enable_webcam_scheduling":true,"polymer_enable_mdx":true,"log_vis_on_tab_change":true,"enable_classic_creation_menu":true,"service_worker_push_prompt_cap":-1,"desktop_shopping_companion_wta_support":true,"kevlar_auto_watch_next":true,"enable_premium_voluntary_pause":true,"live_chat_flash_money_button_on_super_chat_delivery":true,"kevlar_dismiss_disables_autonav":true,"desktop_videowall_companion_wta_support":true,"service_worker_enabled":true,"desktop_notification_high_priority_ignore_push":true,"kevlar_persistent_guide_width_threshold":1124,"use_push_for_desktop_live_chat":true,"watch_next_pause_autoplay_lact_sec":4500,"kevlar_guide_subscription_uncollapsed_count":7,"third_party_integration_brand_accounts_ui":true,"service_worker_push_watch_page_prompt":true,"enable_lcr_topbar_button_fields":true,"desktop_image_companion_wta_support":true,"video_to_ad_use_gel":true,"kevlar_time_caching_start_threshold":15,"enable_money_stuff_module":true,"youtubei_for_web":true,"youthere_innertube_actions":true,"kevlar_miniplayer":true,"user_mention_suggestions_edu_impression_cap":10,"desktop_scheduler_soft_state_timer":800,"client_streamz_web_flush_count":100,"minimum_duration_to_consider_mouseover_as_hover":500,"live_chat_top_chat_window_length_sec":4,"enable_playlist_visibility":true,"kevlar_search_thumbnails_resize":true,"polymer2_native_firefox":true,"polymer_cold_home_preload":true,"kevlar_library_profile_column":true,"web_android9_useragent_fix":true,"desktop_polymer_video_masthead_always_use_responsive_iframe":true,"kevlar_live_badges":true,"service_worker_push_home_page_prompt":true,"ad_to_video_use_gel":true,"pbj_navigate_limit":-1,"kevlar_time_caching":true,"defer_menus":true,"log_web_endpoint_to_layer":true,"kevlar_nitrate_driven_tooltips":true,"kevlar_enable_reorderable_playlists":true,"kevlar_mousedown_prefetch_blacklist":true,"kevlar_thumbnail_fluid":true,"enable_sticker_packs_scrolling":true,"kevlar_player_subscribe_sync_fix":true,"client_streamz_web_flush_interval_seconds":60,"tighter_critical_section":true,"kevlar_library_v1":true,"defer_rendering_outside_visible_area":true,"preview_play_duration":3000,"desktop_polymer_video_masthead_wta_support":true,"live_chat_flagging_reasons":true,"searchbox_reporting":true,"rich_grid_thumb_min_width":320,"enable_html5_conversion_ve_reporting":true,"enable_button_behavior_reuse":true,"enable_reply_threading_on_web":true,"defer_overlays":true,"kevlar_icons_on_menus":true,"kevlar_home_skeleton":true,"flag_playlist":true,"polymer_selective_initialization":true,"disable_autoshare_ui":true,"kevlar_mealbar_above_player":true,"max_duration_to_consider_mouseover_as_hover":600000,"is_browser_support_for_webcam_streaming":true,"enable_shorter_posts_on_home_desktop":true,"kevlar_use_multiline_ellipsis":true,"kevlar_center_search_results":true,"rich_grid_thumbs_per_row":4,"kevlar_home_skeleton_hide_later":true,"enable_webcam_scheduling_hint":true,"enable_webcam_dynamic_poll_period":true,"low_engagement_player_quality_cap":360,"live_chat_increased_min_height":true,"embed_api_deprecation":true,"lact_local_listeners":true,"polymer_report_client_url_requested_rate":0.001,"enable_service_ajax_csn":true,"clear_web_implicit_clicktracking":true,"desktop_add_to_playlist_renderer_dialog_popup":true,"kevlar_mini_guide_width_threshold":746,"kevlar_set_internal_player_size":true,"polymer_warm_thumbnail_preload":true,"kevlar_flexy_watch_cold_sizing":true,"desktop_reactr_enable_dogfood":true,"viewport_load_collection_wait_time":0,"html5_serverside_pagead_id_sets_cookie":true,"kevlar_guide_refresh":true,"desktop_polymer_video_masthead_session_tempdata_ttl":30,"global_spacebar_pause":true,"live_chat_use_new_default_filter_mode":true,"enable_server_side_search_pyv":true,"enable_logging_directives_desktop":true,"enable_cold_load_instrumentation":true,"autoplay_pause_by_lact_sampling_fraction":0.0,"enable_servlet_errors_streamz":true,"polymer_schedule_immediate_components":true,"desktop_pyv_on_watch_missing_params":true,"autoplay_pause_by_lact_sec":0,"autoplay_pause_sampling_fraction":0.0,"live_chat_over_playlist":true,"service_worker_push_force_notification_prompt_tag":"1","restore_player_preloading":true,"kevlar_mousedown_prefetch":true,"gfeedback_for_signed_out_users_enabled":true,"json_serialize_service_endpoints2":true,"live_chat_replay":true,"very_optimistically_create_gel_client":true,"kevlar_use_ytd_player":true,"kevlar_mini_guide":true},"ENABLE_IMG_TRANSITION":false,"USE_CUSTOM_CONTROLS":false,"PLAYER_CSS_URL":"\/yts\/cssbin\/player-vfl_-euwi\/www-player-webp.css","INNERTUBE_CONTEXT_CLIENT_NAME":1,"ONE_PICK_URL":"","404_IMG_URL":"\/yts\/img\/ringo\/img\/image-hh-404-vflP3hqNT.png","DEFERRED_DETACH":true,"UPLOAD_BTN_CLICKTRACKING":"ei=EuEgXfmQE8P5-gbhzK2QDA\u0026feature=mhsb","ELEMENT_POOL_DEFAULT_CAP":75,"PAGE_BUILD_LABEL":"youtube.ytfe.desktop_20190701_7_RC1","ANIMATED_YOODLE_JS_URL":"\/yts\/jsbin\/www-animated-yoodle-vflZfroWe\/www-animated-yoodle.js","WELCOME_POPUP_ENABLED_END":null,"VARIANTS_CHECKSUM":"97e19b7118dfdcc87ffff0d189fb17db","INNERTUBE_API_VERSION":"v1","ENABLE_SEL_AUTO":true,"SCHEDULED_LAZY_LIST":true,"CLIENT_PROTOCOL":"h2","SBOX_SETTINGS":{"SEARCHBOX_ENABLE_REFINEMENT_SUGGEST":true,"SUGG_EXP_ID":"","SESSION_INDEX":0,"SEND_VISITOR_DATA":false,"HAS_ON_SCREEN_KEYBOARD":true,"REQUEST_LANGUAGE":"nl","SEARCHBOX_BEHAVIOR_EXPERIMENT":"zero-prefix","REQUEST_DOMAIN":"nl","IS_FUSION":false,"IS_POLYMER":true,"PQ":"","PSUGGEST_TOKEN":"nQGXyiWlzzgpgI-6Dfm9tQ"},"XSRF_FIELD_NAME":"session_token","STAMPER_STABLE_LIST":true,"ID_TOKEN":"QUFFLUhqbXdvMlMyU2p2emRmOG0zLWZZZHYyYUVVYk12Z3w=","HISTORY_CACHE_MAX_SIZE":100,"DISABLE_DATA_REPLAY":false,"SIGNIN_URL":"https:\/\/accounts.google.com\/ServiceLogin?hl=nl\u0026passive=true\u0026continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Dnl%26feature%3D__FEATURE__%26next%3D%252F%253Fgl%253DNL%2526hl%253Dnl%26app%3Ddesktop%26action_handle_signin%3Dtrue%26authuser%3D0\u0026uilel=3\u0026service=youtube\u0026authuser=0","SERVICE_WORKER_PROMPT_NOTIFICATIONS":true,"PAGE_CL":256172872,"SUPPORTS_ANIMATIONS":true,"YTR_FAMILY_CREATION_URL":"https:\/\/families.google.com\/webcreation?usegapi=1","IS_TABLET":false,"ROOT_VE_TYPE":3854,"EVENT_ID":"EuEgXfmQE8P5-gbhzK2QDA","REUSE_COMPONENTS":true,"DISABLE_WARM_LOADS":false});ytcfg.set("SBOX_LABELS", {"SUGGESTION_DISMISSED_LABEL":"Suggestie verwijderd","SUGGESTION_DISMISS_LABEL":"Verwijderen"});var setMessage = function(msg) {if (window.yt && yt.setMsg) {yt.setMsg(msg);} else {window.ytcfg = window.ytcfg || {};ytcfg.msgs = msg;}};setMessage({'SIGN_IN_LABEL': "Inloggen",'SHARE_LABEL': "Delen",'GUIDE_ALT_LABEL': "Gids",'LOGO_ALT_LABEL': "YouTube-homepage",'BACK_ALT_LABEL': "Terug",'CHOOSE_COUNTRY_LABEL': "Kies je locatie",'COUNTRY_LABEL': "Locatie:",'CHOOSE_LANGUAGE_LABEL': "Selecteer je taal",'LANGUAGE_LABEL': "Taal:",'OFF': "Uit",'ON': "Aan",'RESTRICTED_MODE_LABEL': "Beperkte modus:",'RESTRICTED_MODE_TEXT_LINE_1': "In Beperkte modus worden video's met ongepaste content verborgen, zoals video's die door gebruikers als ongepast zijn gemarkeerd. Geen enkel filter is waterdicht, maar hiermee vermijd je in elk geval de meest ongepaste content.",'RESTRICTED_MODE_TEXT_LINE_2': "Je instelling voor Beperkte modus wordt alleen toegepast in deze browser.",'RESTRICTED_MODE_TITLE': "Beperkte modus",'SBOX_PLACEHOLDER': "Zoeken",'SBOX_INAPPROPRIATE_PROMPT': "Zoekvoorspellingen melden",'SBOX_INAPPROPRIATE_TITLE': "Zoekvoorspellingen melden",'SBOX_INAPPROPRIATE_SUGGESTIONS': "Selecteer de voorspellingen die je wilt melden:",'SBOX_INAPPROPRIATE_CATEGORY': "De geselecteerde voorspellingen zijn:",'SBOX_INAPPROPRIATE_HATEFUL': "Haatzaaiend",'SBOX_INAPPROPRIATE_EXPLICIT': "Seksueel expliciet",'SBOX_INAPPROPRIATE_VIOLENT': "Gewelddadig",'SBOX_INAPPROPRIATE_DANGEROUS': "Gevaarlijk en schadelijk",'SBOX_INAPPROPRIATE_OTHER': "Overig",'SBOX_INAPPROPRIATE_REASON': "Reden (vereist)",'SBOX_INAPPROPRIATE_ADDITIONAL': "Geef aanvullende informatie op (optioneel)",'SBOX_INAPPROPRIATE_SUBMIT': "Verzenden",'SBOX_INAPPROPRIATE_REPORT': "Melden",'SBOX_INAPPROPRIATE_CANCEL': "Annuleren",'SBOX_INAPPROPRIATE_TOAST': "Bedankt voor je feedback!",'CLASSIC_YOUTUBE_LABEL': "Het oude YouTube herstellen",'ADD_TO_DROPDOWN_LABEL': "Opslaan...",'REQUIRED_LABEL': "Vereist",'NO_ANGLE_BRACKET_LABEL': "De naam van de afspeellijst mag niet \u003c of \u003e bevatten\n",'EDIT_AVATAR_LABEL': "Profielfoto bewerken",'AD_BADGE_TEXT': "Advertentie",'EDU_GOT_IT': "OK",'MINIPLAYER_EDU_TITLE': "Blijven kijken terwijl je browst",'MINIPLAYER_EDU_TEXT': "Je kunt deze minispeler uitschakelen via Instellingen",'MINIPLAYER_EDU_SETTINGS': "Instellingen",'MINIPLAYER_CLOSE': "Sluiten",'QUEUE': "Wachtrij",'ADDED_TO_QUEUE': "Toegevoegd aan wachtrij",'QUEUE_CLEARED': "$COUNT_PLACEHOLDER video's uit de wachtrij verwijderd.",'QUEUE_CLOSE_MINIPLAYER_CONFIRM_TITLE': "Sluit de wachtrij",'QUEUE_CLOSE_MINIPLAYER_CONFIRM_TEXT': "$COUNT_PLACEHOLDER video's worden uit de wachtrij verwijderd.",'UNDO': "Ongedaan maken",'CANCEL': "Annuleren",'UP_NEXT': "Volgende",'PLAYING_NOW': "Wordt nu afgespeeld",'NEXT_UP_NEXT_EDU_TITLE': "Bepaal welke video hierna wordt afgespeeld",'NEXT_UP_NEXT_EDU_TEXT': "Klik op het pictogram ⋮ bij een video om het uit te proberen.\n",'SUBS_FILTER_EDU_TEXT': "Bekijk nieuwe video's van elk kanaal",'SUBS_GUIDE_ITEM_EDU_TEXT': "Bekijk nieuwe video's van al je abonnementen",'SUBS_FILTER_EDU_CHANNEL_TEXT': "Nu worden nieuwe video's van dit kanaal weergegeven.",'LIBRARY_GUIDE_ITEM_EDU_TITLE': "Bekijk de nieuwe bibliotheek",'LIBRARY_GUIDE_ITEM_EDU_TEXT': "Hier vind je je geschiedenis, afspeellijsten, aankopen en meer",'MENTIONS_EDU_TITLE': "Meer info",'MENTIONS_EDU_TEXT': "Ga naar het Helpcentrum voor meer informatie over vermeldingen op YouTube.",'EXPLORE_EDU_TEXT': "Nieuw: Meer manieren om geweldige video's, kanalen en onderwerpen te vinden",'LS_LOADING_STANDARD': "Standaardweergave laden",'LS_LOAD_HTML': "\u003ca href=\"https:\/\/www.youtube.com\/?gl=NL\u0026amp;hl=nl\u0026amp;dp_lcl=1\u0026amp;disable_polymer=1\"\u003eBasis-HTML laden\u003c\/a\u003e (voor trage verbindingen)\n",'LS_HOLD_ON': "YouTube laden duurt langer dan verwacht. Even geduld...",'LS_TIMED_OUT': "Er gaat iets mis, meestal duurt het niet zo lang. Je kunt blijven wachten of \u003ca href=\"https:\/\/www.youtube.com\/?gl=NL\u0026amp;hl=nl\u0026amp;pbjreload=10\"\u003ehier\u003c\/a\u003e klikken om de pagina opnieuw te laden.\n",'JOIN_MEMBERSHIP_EDU_TITLE': "Lidmaatschap",'JOIN_MEMBERSHIP_EDU_TEXT': "Je ontvangt exclusieve voordelen wanneer je een lidmaatschap voor dit kanaal koopt.",'MANAGE_MEMBERSHIP_EDU_TITLE': "Bekijk de exclusieve voordelen voor leden",'MANAGE_MEMBERSHIP_EDU_TEXT': "Hier kun je je voordelen zien en je lidmaatschap beheren."});})();ytcfg.set('MENTIONS_EDU_HELP_LINK', "https:\/\/support.google.com\/youtube\/?p=creator_community");ytcfg.set('scheduler', {useRaf: true, timeout: 20});ytcfg.set('initialInnerWidth', window.innerWidth);ytcfg.set('initialInnerHeight', window.innerHeight);ytcfg.set("YTO_CKEE_ENABLED", {"guide":false,"wax_on":true,"crane_kick":true});ytcfg.set("YTO_CKEE_VIDEOS", ["1Aoc-cd9eYs","1jTy2VMqaM4","81XSlh_UKJg","9S9ydLeG-Lw","9z1nTwP2n0w","Anw5KRS2bjs","EsXRIHhAo5M","MfePCtYUy1g","NujGR1l9hAc","XPRNwg7KNos","_COmckF6OxE","_rB36UGoP4Y","aDTUH8VkhVE","c1z7iLlFu9E","d2_2oCRPrjM","hkwDj6A1oNk","iIaVdlcDRA0","l2t7qNQBthk","nrc-fRMHvBM","vNgbK85d0ZM","xCwwxNbtK6Y","xLtYmhj-0Kg","yO-hXXhYVkc"]);ytcfg.set("YTO_CKEE_FRAMERATE", 301);ytcfg.set("YTO_CKEE_SEEK_THRESHOLD", 0.5);window.ytcfg.set('IS_HOMEPAGE_COLD', true);window.ytcfg.set('COLD_LOADED_PAGE', 'home');window.ytcfg.set('LINK_API_KEY', "AIzaSyDophAQuyyiBr8h0nypEwXUKozH-BEswD0");window.ytcfg.set('LINK_OIS_DOMAIN', "oauthintegrations.googleapis.com");(function() {var state = 'new';var data = {};var endpoint = null;var setFiller = null;var isPolymerReady = false;window['chp_spr'] = function(response) {if (state == 'new') {data.filler = true;data.response = response;if (isPolymerReady) {preload();} else {state = 'hpr';                }}window['chp_spr'] = null;            };window['chp_ssr'] = function(csn, endpoint, page, playerResponse, response, url, setter) {if (state == 'new' || state == 'hpr' || state == 'ip') {data = {page: page,response: response,url: url,endpoint: endpoint};if (csn) {data.csn = csn;}setFiller = setter;if (isPolymerReady) {load();} else {state = 'hsr';                }}window['chp_ssr'] = null;            };window['chp_opr'] = function(page, playerConfig, url) {isPolymerReady = true;if (state == 'hsr') {load();              } else if (state == 'hpr') {data.page = page;data.url = url;preload();}data = window['chp_opr'] = null;            };var preload = function() {if (window.loadDataHook) {if (window.ytcsi) {window.ytcsi.tick("chps", null, '');}window.loadDataHook(null, data);                state = 'ip';              } else {window.getPageData = function() {state = 'ip';if (window.ytcsi) {window.ytcsi.tick("chps", null, '');}return {data: data, endpoint: null};};}};var load = function() {if (window.loadDataHook) {if (window.ytcsi) {window.ytcsi.tick("chls", null, '');}window.loadDataHook(endpoint, data);window.loadDataHook = null;state = 'ir';              } else {window.getPageData = function() {if (window.ytcsi) {window.ytcsi.tick("chls", null, '');}if (window.ytcsi) {window.ytcsi.tick("pr", null, '');}state = 'ir';return {data: data, endpoint: endpoint};};}setFiller && setFiller();};})();if (window.ytcsi) {window.ytcsi.tick("lpcf", null, '');}</script>  
+<script src="/yts/jsbin/scheduler-vfl0nTPXR/scheduler.js" type="text/javascript" name="scheduler/scheduler" class="js-httpswwwyoutubecomytsjsbinschedulervfl0nTPXRschedulerjs"></script>  
+  
+<script src="/yts/jsbin/www-tampering-vflHhBVPu/www-tampering.js" type="text/javascript" name="www-tampering/www-tampering" class="js-httpswwwyoutubecomytsjsbinwwwtamperingvflHhBVPuwwwtamperingjs"></script>  
+  
+<script src="/yts/jsbin/www-prepopulator-vfl8hLntF/www-prepopulator.js" type="text/javascript" name="www-prepopulator/www-prepopulator" class="js-httpswwwyoutubecomytsjsbinwwwprepopulatorvfl8hLntFwwwprepopulatorjs"></script>  
+  
+<script src="/yts/jsbin/spf-vflqCgDoF/spf.js" type="text/javascript" name="spf/spf" class="js-httpswwwyoutubecomytsjsbinspfvflqCgDoFspfjs"></script>  
+  
+<script src="/yts/jsbin/network-vfl3EpVxj/network.js" type="text/javascript" name="network/network" class="js-httpswwwyoutubecomytsjsbinnetworkvfl3EpVxjnetworkjs"></script>  
+<script>if (window.ytcsi) {window.ytcsi.tick("csl", null, '');}</script>
+  <style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzI.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "N");document.fonts.load("500 10pt Roboto", "N");}</script>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=YT%20Sans%3A300%2C500%2C700" name="www-webfont-yt-sans" class="css-httpsfontsgoogleapiscomcssfamilyYT20Sans3A3002C5002C700"><link rel="stylesheet" href="/yts/cssbin/www-main-desktop-home-page-skeleton-webp-vflB9F2kZ.css" name="www-main-desktop-home-page-skeleton" class="css-httpswwwyoutubecomytscssbinwwwmaindesktophomepageskeletonwebpvflB9F2kZcss"><link rel="stylesheet" href="/yts/cssbin/www-onepick-webp-vflsYL2Tr.css" name="www-onepick" class="css-httpswwwyoutubecomytscssbinwwwonepickwebpvflsYL2Trcss"><style name="global_styles">body{padding:0;margin:0;overflow-y:scroll}body.autoscroll{overflow-y:auto}body.no-scroll{overflow:hidden}body.no-y-scroll{overflow-y:hidden}.hidden{display:none}textarea{--paper-input-container-input_-_white-space:pre-wrap}</style><style name="masthead_shell">ytd-masthead.shell{background:rgba(255,255,255,0.98);position:fixed;top:0;right:0;left:0;display:-ms-flex;display:-webkit-flex;display:flex;height:56px;-ms-flex-align:center;-webkit-align-items:center;align-items:center}ytd-masthead.shell #menu-icon{margin-left:16px}ytd-app>ytd-masthead.chunked{position:fixed;top:0;width:100%}ytd-masthead.shell.dark,ytd-masthead.shell.theater{background:rgba(40,40,40,0.98)}ytd-masthead.shell.full-window-mode{background:rgba(40,40,40,0.98);opacity:0;transform:translateY(calc(-100% - 5px))}ytd-masthead.shell>*:first-child{padding-left:16px}ytd-masthead.shell>*:last-child{padding-right:16px}ytd-masthead #masthead-logo{display:-ms-flex;display:-webkit-flex;display:flex}ytd-masthead #masthead-logo #country-code{margin-right:2px}ytd-masthead.shell #yt-logo-svg,ytd-masthead.shell #yt-logo-red-svg{align-self:center;margin-left:8px;padding:0;color:black}ytd-masthead.shell #a11y-skip-nav{display:none}ytd-masthead.shell svg{width:40px;height:40px;padding:8px;margin-right:8px;box-sizing:border-box;color:#606060;fill:currentColor}ytd-masthead .external-icon{width:24px;height:24px}ytd-masthead .yt-icons-ext{fill:currentColor;color:#606060}ytd-masthead.shell.dark .yt-icons-ext ytd-masthead.shell.theater .yt-icons-ext{fill:#fff}ytd-masthead svg#yt-logo-svg{width:80px}ytd-masthead svg#yt-logo-red-svg{width:106.4px}ytd-app>#drop-shadow{pointer-events:none;box-shadow:inset 0 4px 8px -3px rgba(17,17,17,.06);height:8px;position:fixed;top:56px;width:100%;z-index:2}@media (max-width:656px){ytd-masthead.shell>*:first-child{padding-left:8px}ytd-masthead.shell>*:last-child{padding-right:8px}ytd-masthead.shell svg{margin-right:0}ytd-masthead #masthead-logo{-ms-flex:1 1 .000000001px;-webkit-flex:1;flex:1;-webkit-flex-basis:.000000001px;flex-basis:.000000001px}ytd-masthead.shell #yt-logo-svg,ytd-masthead.shell #yt-logo-red-svg{margin-left:4px}}@media (min-width:876px){ytd-masthead #masthead-logo{width:129px}}#masthead-skeleton-icons{display:flex;flex:1;flex-direction:row;justify-content:flex-end}ytd-masthead.masthead-finish #masthead-skeleton-icons{display:none}.masthead-skeleton-icon{border-radius:50%;height:32px;width:32px;margin:0 8px;background-color:hsl(0,0%,89%)}ytd-masthead.dark .masthead-skeleton-icon{background-color:hsl(0,0%,16%)}</style><style name="masthead_custom_styles" is="custom-style" id="ext-styles">ytd-masthead .yt-icons-ext{color:var(--yt-spec-icon-active-other)}ytd-masthead svg#yt-logo-svg #youtube-paths path,ytd-masthead svg#yt-logo-red-svg #youtube-red-paths path{fill:#282828}ytd-masthead.dark svg#yt-logo-svg #youtube-paths path,ytd-masthead.dark svg#yt-logo-red-svg #youtube-red-paths path,ytd-masthead.theater svg#yt-logo-svg #youtube-paths path,ytd-masthead.theater svg#yt-logo-red-svg #youtube-red-paths path{fill:#fff}</style><style name="searchbox">#search-input.ytd-searchbox-spt input{-webkit-appearance:none;-webkit-font-smoothing:antialiased;background-color:transparent;border:none;box-shadow:none;color:inherit;font-family:'Roboto','Noto',sans-serif;font-size:16px;font-weight:400;line-height:24px;margin-left:4px;max-width:100%;outline:none;text-align:inherit;width:100%;-ms-flex:1 1 .000000001px;-webkit-flex:1;flex:1;-webkit-flex-basis:.000000001px;flex-basis:.000000001px}#search-container.ytd-searchbox-spt{pointer-events:none;position:absolute;top:0;right:0;bottom:0;left:0}#search-input.ytd-searchbox-spt #search::-webkit-input-placeholder,#search-input.ytd-searchbox-spt #search::-moz-input-placeholder,#search-input.ytd-searchbox-spt #search:-ms-input-placeholder{color:hsl(0,0%,53.3%)}</style><style name="kevlar_global_styles">html{background-color:#f9f9f9!important}html[dark]{background-color:#131313!important}</style><style name="emergencycssformatted">ytd-playlist-panel-video-renderer {
+display: flex; min-height: 56px; padding: 4px 8px 4px 0
+}
+
+[dark] ytd-menu-popup-tip-renderer {
+color: #FFFFFF;
+}
+
+ytd-search[center-results] ytd-two-column-search-results-renderer {
+-ms-flex: 1 1 0.000000001px; -webkit-flex: 1; flex: 1; -webkit-flex-basis: 0.000000001px; flex-basis: 0.000000001px
+}
+
+body[dir=rtl] ytd-app[scrolling_] {
+right: 0 !important; left: calc((var(--ytd-app-fullerscreen-scrollbar-width) + 1px) * -1) !important
+}
+
+#watch-page-skeleton #related {
+display: none
+}
+
+ytd-banner-promo-renderer {
+--yt-lightsource-section2-color: var(--yt-spec-static-overlay-text-primary); --yt-lightsource-section3-color: var(--yt-spec-static-overlay-text-primary); --yt-lightsource-navBarColor: var(--yt-spec-static-overlay-text-primary); --yt-lightsource-body-text-color: var(--yt-spec-static-overlay-text-primary); --yt-lightsource-iron-activated-color: var(--yt-spec-static-overlay-text-primary); --yt-lightsource-iron-inactive-color: var(--yt-spec-static-overlay-text-primary); --yt-basic-foreground-body-color: var(--yt-spec-static-overlay-text-primary); --yt-basic-foreground-activated-color: var(--yt-spec-static-overlay-text-primary)
+}
+
+.yt-simple-endpoint {
+text-decoration: none
+}
+
+#a11y-skip-nav {
+display: none !important
+}
+
+#guide-inner-content:hover {
+overflow-y: auto
+}</style><style name="emergencycss">.ytp-player-minimized .ad-container-single-media-element-annotations { display: block; } ytd-watch-flexy { min-width: 0; } ytd-watch-flexy[flexy_] #primary.ytd-watch-flexy { min-width: calc(var(--ytd-watch-flexy-min-player-height) * (var(--ytd-watch-flexy-width-ratio) / var(--ytd-watch-flexy-height-ratio))); } ytd-watch-flexy[flexy_] #secondary.ytd-watch-flexy { min-width: 300px; }  ytd-live-chat-frame[collapsed] { height: auto !important; } ytd-live-chat-frame[collapsed] iframe.ytd-live-chat-frame { height: 0; max-height: 0; }</style><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=nl_NL" title="YouTube"><link rel="manifest" href="/manifest.json">
+<style>[hidden] { display: none !important; }</style><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic" class="css-httpsfontsgoogleapiscomcssfamilyRoboto400300300italic400italic500500italic700700italic"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" class="css-httpsfontsgoogleapiscomcssfamilyRobotoMono400700">/* Most common used flex styles*/
+<dom-module id="iron-flex">
+  <template>
+    <style scope="iron-flex">.layout.horizontal, .layout.vertical {
+  display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+}
+
+.layout.inline {
+  display: -ms-inline-flexbox;
+        display: -webkit-inline-flex;
+        display: inline-flex;
+}
+
+.layout.horizontal {
+  -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+}
+
+.layout.vertical {
+  -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+}
+
+.layout.wrap {
+  -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.layout.no-wrap {
+  -ms-flex-wrap: nowrap;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+
+.layout.center, .layout.center-center {
+  -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+
+.layout.center-justified, .layout.center-center {
+  -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+}
+
+.flex {
+  -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px;
+}
+
+.flex-auto {
+  -ms-flex: 1 1 auto;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+}
+
+.flex-none {
+  -ms-flex: none;
+        -webkit-flex: none;
+        flex: none;
+}
+
+</style>
+  </template>
+</dom-module>
+/* Basic flexbox reverse styles */
+<dom-module id="iron-flex-reverse">
+  <template>
+    <style scope="iron-flex-reverse">.layout.horizontal-reverse, .layout.vertical-reverse {
+  display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+}
+
+.layout.horizontal-reverse {
+  -ms-flex-direction: row-reverse;
+        -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+}
+
+.layout.vertical-reverse {
+  -ms-flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+}
+
+.layout.wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+        -webkit-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+}
+
+</style>
+  </template>
+</dom-module>
+/* Flexbox alignment */
+<dom-module id="iron-flex-alignment">
+  <template>
+    <style scope="iron-flex-alignment">.layout.start {
+  -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+}
+
+.layout.center, .layout.center-center {
+  -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+
+.layout.end {
+  -ms-flex-align: end;
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+}
+
+.layout.baseline {
+  -ms-flex-align: baseline;
+        -webkit-align-items: baseline;
+        align-items: baseline;
+}
+
+.layout.start-justified {
+  -ms-flex-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+}
+
+.layout.center-justified, .layout.center-center {
+  -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+}
+
+.layout.end-justified {
+  -ms-flex-pack: end;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+}
+
+.layout.around-justified {
+  -ms-flex-pack: distribute;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+}
+
+.layout.justified {
+  -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+}
+
+.self-start {
+  -ms-align-self: flex-start;
+        -webkit-align-self: flex-start;
+        align-self: flex-start;
+}
+
+.self-center {
+  -ms-align-self: center;
+        -webkit-align-self: center;
+        align-self: center;
+}
+
+.self-end {
+  -ms-align-self: flex-end;
+        -webkit-align-self: flex-end;
+        align-self: flex-end;
+}
+
+.self-stretch {
+  -ms-align-self: stretch;
+        -webkit-align-self: stretch;
+        align-self: stretch;
+}
+
+.self-baseline {
+  -ms-align-self: baseline;
+        -webkit-align-self: baseline;
+        align-self: baseline;
+}
+
+.layout.start-aligned {
+  -ms-flex-line-pack: start;  
+        -ms-align-content: flex-start;
+        -webkit-align-content: flex-start;
+        align-content: flex-start;
+}
+
+.layout.end-aligned {
+  -ms-flex-line-pack: end;  
+        -ms-align-content: flex-end;
+        -webkit-align-content: flex-end;
+        align-content: flex-end;
+}
+
+.layout.center-aligned {
+  -ms-flex-line-pack: center;  
+        -ms-align-content: center;
+        -webkit-align-content: center;
+        align-content: center;
+}
+
+.layout.between-aligned {
+  -ms-flex-line-pack: justify;  
+        -ms-align-content: space-between;
+        -webkit-align-content: space-between;
+        align-content: space-between;
+}
+
+.layout.around-aligned {
+  -ms-flex-line-pack: distribute;  
+        -ms-align-content: space-around;
+        -webkit-align-content: space-around;
+        align-content: space-around;
+}
+
+</style>
+  </template>
+</dom-module>
+/* Non-flexbox positioning helper styles */
+<dom-module id="iron-flex-factors">
+  <template>
+    <style scope="iron-flex-factors">.flex, .flex-1 {
+  -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px;
+}
+
+.flex-2 {
+  -ms-flex: 2;
+        -webkit-flex: 2;
+        flex: 2;
+}
+
+.flex-3 {
+  -ms-flex: 3;
+        -webkit-flex: 3;
+        flex: 3;
+}
+
+.flex-4 {
+  -ms-flex: 4;
+        -webkit-flex: 4;
+        flex: 4;
+}
+
+.flex-5 {
+  -ms-flex: 5;
+        -webkit-flex: 5;
+        flex: 5;
+}
+
+.flex-6 {
+  -ms-flex: 6;
+        -webkit-flex: 6;
+        flex: 6;
+}
+
+.flex-7 {
+  -ms-flex: 7;
+        -webkit-flex: 7;
+        flex: 7;
+}
+
+.flex-8 {
+  -ms-flex: 8;
+        -webkit-flex: 8;
+        flex: 8;
+}
+
+.flex-9 {
+  -ms-flex: 9;
+        -webkit-flex: 9;
+        flex: 9;
+}
+
+.flex-10 {
+  -ms-flex: 10;
+        -webkit-flex: 10;
+        flex: 10;
+}
+
+.flex-11 {
+  -ms-flex: 11;
+        -webkit-flex: 11;
+        flex: 11;
+}
+
+.flex-12 {
+  -ms-flex: 12;
+        -webkit-flex: 12;
+        flex: 12;
+}
+
+</style>
+  </template>
+</dom-module>
+<dom-module id="iron-positioning">
+  <template>
+    <style scope="iron-positioning">.block {
+  display: block;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.fit {
+  position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+body.fullbleed {
+  margin: 0;
+        height: 100vh;
+}
+
+.scroll {
+  -webkit-overflow-scrolling: touch;
+        overflow: auto;
+}
+
+.fixed-bottom, .fixed-left, .fixed-right, .fixed-top {
+  position: fixed;
+}
+
+.fixed-top {
+  top: 0;
+        left: 0;
+        right: 0;
+}
+
+.fixed-right {
+  top: 0;
+        right: 0;
+        bottom: 0;
+}
+
+.fixed-bottom {
+  right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.fixed-left {
+  top: 0;
+        bottom: 0;
+        left: 0;
+}
+
+</style>
+  </template>
+</dom-module>
+<dom-module id="paper-material-styles">
+  <template>
+    <style scope="paper-material-styles">:host, html {
+  --paper-material_-_display:  block; --paper-material_-_position:  relative;;
+        --paper-material-elevation-1_-_box-shadow:  var(--shadow-elevation-2dp_-_box-shadow);;
+        --paper-material-elevation-2_-_box-shadow:  var(--shadow-elevation-4dp_-_box-shadow);;
+        --paper-material-elevation-3_-_box-shadow:  var(--shadow-elevation-6dp_-_box-shadow);;
+        --paper-material-elevation-4_-_box-shadow:  var(--shadow-elevation-8dp_-_box-shadow);;
+        --paper-material-elevation-5_-_box-shadow:  var(--shadow-elevation-16dp_-_box-shadow);;
+}
+
+:host(.paper-material), .paper-material {
+  display: var(--paper-material_-_display); position: var(--paper-material_-_position);
+}
+
+:host(.paper-material[elevation="1"]), .paper-material[elevation="1"] {
+  box-shadow: var(--paper-material-elevation-1_-_box-shadow);
+}
+
+:host(.paper-material[elevation="2"]), .paper-material[elevation="2"] {
+  box-shadow: var(--paper-material-elevation-2_-_box-shadow);
+}
+
+:host(.paper-material[elevation="3"]), .paper-material[elevation="3"] {
+  box-shadow: var(--paper-material-elevation-3_-_box-shadow);
+}
+
+:host(.paper-material[elevation="4"]), .paper-material[elevation="4"] {
+  box-shadow: var(--paper-material-elevation-4_-_box-shadow);
+}
+
+:host(.paper-material[elevation="5"]), .paper-material[elevation="5"] {
+  box-shadow: var(--paper-material-elevation-5_-_box-shadow);
+}
+
+</style>
+  </template>
+</dom-module><dom-module id="paper-dialog-shared-styles">
+  <template>
+    <style scope="paper-dialog-shared-styles">:host {
+  display: block;
+        margin: 24px 40px;
+
+        background: var(--paper-dialog-background-color, var(--primary-background-color));
+        color: var(--paper-dialog-color, var(--primary-text-color));
+
+        font-family: var(--paper-font-body1_-_font-family); -webkit-font-smoothing: var(--paper-font-body1_-_-webkit-font-smoothing); font-size: var(--paper-font-body1_-_font-size); font-weight: var(--paper-font-body1_-_font-weight); line-height: var(--paper-font-body1_-_line-height);
+        box-shadow: var(--shadow-elevation-16dp_-_box-shadow);
+        ;
+}
+
+:host > ::slotted(*) {
+  margin-top: 20px;
+        padding: 0 24px;
+}
+
+:host > ::slotted(.no-padding) {
+  padding: 0;
+}
+
+:host > ::slotted(*:first-child) {
+  margin-top: 24px;
+}
+
+:host > ::slotted(*:last-child) {
+  margin-bottom: 24px;
+}
+
+:host > ::slotted(h2) {
+  position: relative;
+        margin: 0;
+
+        font-family: var(--paper-font-title_-_font-family); -webkit-font-smoothing: var(--paper-font-title_-_-webkit-font-smoothing); white-space: var(--paper-font-title_-_white-space); overflow: var(--paper-font-title_-_overflow); text-overflow: var(--paper-font-title_-_text-overflow); font-size: var(--paper-font-title_-_font-size); font-weight: var(--paper-font-title_-_font-weight); line-height: var(--paper-font-title_-_line-height);
+        ;
+}
+
+:host > ::slotted(h2:first-child) {
+  margin-top: 24px;
+        ;
+}
+
+:host > ::slotted(h2:last-child) {
+  margin-bottom: 24px;
+        ;
+}
+
+:host > ::slotted(.paper-dialog-buttons), :host > ::slotted(.buttons) {
+  position: relative;
+        padding: 8px 8px 8px 24px;
+        margin: 0;
+
+        color: var(--paper-dialog-button-color, var(--primary-color));
+
+        display: var(--layout-horizontal_-_display); -ms-flex-direction: var(--layout-horizontal_-_-ms-flex-direction); -webkit-flex-direction: var(--layout-horizontal_-_-webkit-flex-direction); flex-direction: var(--layout-horizontal_-_flex-direction);
+        -ms-flex-pack: var(--layout-end-justified_-_-ms-flex-pack); -webkit-justify-content: var(--layout-end-justified_-_-webkit-justify-content); justify-content: var(--layout-end-justified_-_justify-content);
+}
+
+</style>
+  </template>
+</dom-module><iron-iconset-svg name="paper-dropdown-menu" size="24" style="display: none;">
+<svg><defs>
+<g id="arrow-drop-down"><path d="M7 10l5 5 5-5z"></path></g>
+</defs></svg>
+</iron-iconset-svg><dom-module id="paper-dropdown-menu-shared-styles">
+  <template>
+    <style scope="paper-dropdown-menu-shared-styles">:host {
+  display: inline-block;
+        position: relative;
+        text-align: left;
+
+        
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent;
+
+        --paper-input-container-input_-_overflow:  hidden; --paper-input-container-input_-_white-space:  nowrap; --paper-input-container-input_-_text-overflow:  ellipsis; --paper-input-container-input_-_max-width:  100%; --paper-input-container-input_-_box-sizing:  border-box; --paper-input-container-input_-_cursor:  pointer; --paper-input-container-input_-_font-size: initial; --paper-input-container-input_-_font-weight: initial; --paper-input-container-input_-_line-height: initial; --paper-input-container-input_-_font-family: initial; --paper-input-container-input_-_padding: initial; --paper-input-container-input_-_color: initial; --paper-input-container-input_-_text-align: initial; --paper-input-container-input_-_height: initial;;
+
+        ;
+}
+
+:host(:dir(rtl)) {
+  text-align: right;
+
+        ;
+}
+
+:host([disabled]) {
+  ;
+}
+
+:host([noink]) paper-ripple {
+  display: none;
+}
+
+:host([no-label-float]) paper-ripple {
+  top: 8px;
+}
+
+paper-ripple {
+  top: 12px;
+        left: 0px;
+        bottom: 8px;
+        right: 0px;
+
+        position: var(--paper-dropdown-menu-ripple_-_position); top: var(--paper-dropdown-menu-ripple_-_top, 12px); right: var(--paper-dropdown-menu-ripple_-_right, 0px); bottom: var(--paper-dropdown-menu-ripple_-_bottom, 8px); left: var(--paper-dropdown-menu-ripple_-_left, 0px);
+}
+
+paper-menu-button {
+  display: block;
+        padding: 0;
+
+        ;
+}
+
+paper-input {
+  ;
+}
+
+iron-icon {
+  color: var(--disabled-text-color);
+
+        ;
+}
+
+</style>
+  </template>
+</dom-module>
+<dom-module id="paper-item-shared-styles">
+  <template>
+    <style scope="paper-item-shared-styles">:host, .paper-item {
+  display: block;
+        position: relative;
+        min-height: var(--paper-item-min-height, 48px);
+        padding: 0px 16px;
+}
+
+.paper-item {
+  font-family: var(--paper-font-subhead_-_font-family); -webkit-font-smoothing: var(--paper-font-subhead_-_-webkit-font-smoothing); font-size: var(--paper-font-subhead_-_font-size); font-weight: var(--paper-font-subhead_-_font-weight); line-height: var(--paper-font-subhead_-_line-height);
+        border:none;
+        outline: none;
+        background: white;
+        width: 100%;
+        text-align: left;
+}
+
+:host([hidden]), .paper-item[hidden] {
+  display: none !important;
+}
+
+:host(.iron-selected), .paper-item.iron-selected {
+  font-weight: var(--paper-item-selected-weight, bold);
+
+        background-color: var(--paper-item-selected_-_background-color); font-weight: var(--paper-item-selected_-_font-weight, var(--paper-item-selected-weight, bold));
+}
+
+:host([disabled]), .paper-item[disabled] {
+  color: var(--paper-item-disabled-color, var(--disabled-text-color));
+
+        ;
+}
+
+:host(:focus), .paper-item:focus {
+  position: relative;
+        outline: 0;
+
+        background-color: var(--paper-item-focused_-_background-color);
+}
+
+:host(:focus):before, .paper-item:focus:before {
+  position: var(--layout-fit_-_position); top: var(--layout-fit_-_top); right: var(--layout-fit_-_right); bottom: var(--layout-fit_-_bottom); left: var(--layout-fit_-_left);
+
+        background: currentColor;
+        content: '';
+        opacity: var(--dark-divider-opacity);
+        pointer-events: none;
+
+        background: var(--paper-item-focused-before_-_background, currentColor);
+}
+
+</style>
+  </template>
+</dom-module><dom-module id="paper-material-shared-styles">
+  <template>
+    <style scope="paper-material-shared-styles">:host {
+  display: block;
+        position: relative;
+}
+
+:host([elevation="1"]) {
+  box-shadow: var(--shadow-elevation-2dp_-_box-shadow);
+}
+
+:host([elevation="2"]) {
+  box-shadow: var(--shadow-elevation-4dp_-_box-shadow);
+}
+
+:host([elevation="3"]) {
+  box-shadow: var(--shadow-elevation-6dp_-_box-shadow);
+}
+
+:host([elevation="4"]) {
+  box-shadow: var(--shadow-elevation-8dp_-_box-shadow);
+}
+
+:host([elevation="5"]) {
+  box-shadow: var(--shadow-elevation-16dp_-_box-shadow);
+}
+
+</style>
+  </template>
+</dom-module><dom-module id="paper-spinner-styles">
+  <template>
+    <style scope="paper-spinner-styles">:host {
+  display: inline-block;
+        position: relative;
+        width: 28px;
+        height: 28px;
+
+        
+        --paper-spinner-container-rotation-duration: 1568ms;
+
+        
+        --paper-spinner-expand-contract-duration: 1333ms;
+
+        
+        --paper-spinner-full-cycle-duration: 5332ms;
+
+        
+        --paper-spinner-cooldown-duration: 400ms;
+}
+
+#spinnerContainer {
+  width: 100%;
+        height: 100%;
+
+        
+        direction: ltr;
+}
+
+#spinnerContainer.active {
+  -webkit-animation: container-rotate var(--paper-spinner-container-rotation-duration) linear infinite;
+        animation: container-rotate var(--paper-spinner-container-rotation-duration) linear infinite;
+}
+
+@-webkit-keyframes container-rotate {
+to {
+  -webkit-transform: rotate(360deg)
+}
+
+}
+
+@keyframes container-rotate {
+to {
+  transform: rotate(360deg)
+}
+
+}
+
+.spinner-layer {
+  position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        white-space: nowrap;
+        color: var(--paper-spinner-color, var(--google-blue-500));
+}
+
+.layer-1 {
+  color: var(--paper-spinner-layer-1-color, var(--google-blue-500));
+}
+
+.layer-2 {
+  color: var(--paper-spinner-layer-2-color, var(--google-red-500));
+}
+
+.layer-3 {
+  color: var(--paper-spinner-layer-3-color, var(--google-yellow-500));
+}
+
+.layer-4 {
+  color: var(--paper-spinner-layer-4-color, var(--google-green-500));
+}
+
+.active .spinner-layer {
+  -webkit-animation-name: fill-unfill-rotate;
+        -webkit-animation-duration: var(--paper-spinner-full-cycle-duration);
+        -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        -webkit-animation-iteration-count: infinite;
+        animation-name: fill-unfill-rotate;
+        animation-duration: var(--paper-spinner-full-cycle-duration);
+        animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        animation-iteration-count: infinite;
+        opacity: 1;
+}
+
+.active .spinner-layer.layer-1 {
+  -webkit-animation-name: fill-unfill-rotate, layer-1-fade-in-out;
+        animation-name: fill-unfill-rotate, layer-1-fade-in-out;
+}
+
+.active .spinner-layer.layer-2 {
+  -webkit-animation-name: fill-unfill-rotate, layer-2-fade-in-out;
+        animation-name: fill-unfill-rotate, layer-2-fade-in-out;
+}
+
+.active .spinner-layer.layer-3 {
+  -webkit-animation-name: fill-unfill-rotate, layer-3-fade-in-out;
+        animation-name: fill-unfill-rotate, layer-3-fade-in-out;
+}
+
+.active .spinner-layer.layer-4 {
+  -webkit-animation-name: fill-unfill-rotate, layer-4-fade-in-out;
+        animation-name: fill-unfill-rotate, layer-4-fade-in-out;
+}
+
+@-webkit-keyframes fill-unfill-rotate {
+12.5% {
+  -webkit-transform: rotate(135deg)
+}
+
+25% {
+  -webkit-transform: rotate(270deg)
+}
+
+37.5% {
+  -webkit-transform: rotate(405deg)
+}
+
+50% {
+  -webkit-transform: rotate(540deg)
+}
+
+62.5% {
+  -webkit-transform: rotate(675deg)
+}
+
+75% {
+  -webkit-transform: rotate(810deg)
+}
+
+87.5% {
+  -webkit-transform: rotate(945deg)
+}
+
+to {
+  -webkit-transform: rotate(1080deg)
+}
+
+}
+
+@keyframes fill-unfill-rotate {
+12.5% {
+  transform: rotate(135deg)
+}
+
+25% {
+  transform: rotate(270deg)
+}
+
+37.5% {
+  transform: rotate(405deg)
+}
+
+50% {
+  transform: rotate(540deg)
+}
+
+62.5% {
+  transform: rotate(675deg)
+}
+
+75% {
+  transform: rotate(810deg)
+}
+
+87.5% {
+  transform: rotate(945deg)
+}
+
+to {
+  transform: rotate(1080deg)
+}
+
+}
+
+@-webkit-keyframes layer-1-fade-in-out {
+0% {
+  opacity: 1
+}
+
+25% {
+  opacity: 1
+}
+
+26% {
+  opacity: 0
+}
+
+89% {
+  opacity: 0
+}
+
+90% {
+  opacity: 1
+}
+
+to {
+  opacity: 1
+}
+
+}
+
+@keyframes layer-1-fade-in-out {
+0% {
+  opacity: 1
+}
+
+25% {
+  opacity: 1
+}
+
+26% {
+  opacity: 0
+}
+
+89% {
+  opacity: 0
+}
+
+90% {
+  opacity: 1
+}
+
+to {
+  opacity: 1
+}
+
+}
+
+@-webkit-keyframes layer-2-fade-in-out {
+0% {
+  opacity: 0
+}
+
+15% {
+  opacity: 0
+}
+
+25% {
+  opacity: 1
+}
+
+50% {
+  opacity: 1
+}
+
+51% {
+  opacity: 0
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@keyframes layer-2-fade-in-out {
+0% {
+  opacity: 0
+}
+
+15% {
+  opacity: 0
+}
+
+25% {
+  opacity: 1
+}
+
+50% {
+  opacity: 1
+}
+
+51% {
+  opacity: 0
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@-webkit-keyframes layer-3-fade-in-out {
+0% {
+  opacity: 0
+}
+
+40% {
+  opacity: 0
+}
+
+50% {
+  opacity: 1
+}
+
+75% {
+  opacity: 1
+}
+
+76% {
+  opacity: 0
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@keyframes layer-3-fade-in-out {
+0% {
+  opacity: 0
+}
+
+40% {
+  opacity: 0
+}
+
+50% {
+  opacity: 1
+}
+
+75% {
+  opacity: 1
+}
+
+76% {
+  opacity: 0
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@-webkit-keyframes layer-4-fade-in-out {
+0% {
+  opacity: 0
+}
+
+65% {
+  opacity: 0
+}
+
+75% {
+  opacity: 1
+}
+
+90% {
+  opacity: 1
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@keyframes layer-4-fade-in-out {
+0% {
+  opacity: 0
+}
+
+65% {
+  opacity: 0
+}
+
+75% {
+  opacity: 1
+}
+
+90% {
+  opacity: 1
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+.circle-clipper {
+  display: inline-block;
+        position: relative;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+}
+
+.spinner-layer::after {
+  content: '';
+        left: 45%;
+        width: 10%;
+        border-top-style: solid;
+}
+
+.spinner-layer::after, .circle-clipper .circle {
+  box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        border-width: var(--paper-spinner-stroke-width, 3px);
+        border-radius: 50%;
+}
+
+.circle-clipper .circle {
+  bottom: 0;
+        width: 200%;
+        border-style: solid;
+        border-bottom-color: transparent !important;
+}
+
+.circle-clipper.left .circle {
+  left: 0;
+        border-right-color: transparent !important;
+        -webkit-transform: rotate(129deg);
+        transform: rotate(129deg);
+}
+
+.circle-clipper.right .circle {
+  left: -100%;
+        border-left-color: transparent !important;
+        -webkit-transform: rotate(-129deg);
+        transform: rotate(-129deg);
+}
+
+.active .gap-patch::after, .active .circle-clipper .circle {
+  -webkit-animation-duration: var(--paper-spinner-expand-contract-duration);
+        -webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        -webkit-animation-iteration-count: infinite;
+        animation-duration: var(--paper-spinner-expand-contract-duration);
+        animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        animation-iteration-count: infinite;
+}
+
+.active .circle-clipper.left .circle {
+  -webkit-animation-name: left-spin;
+        animation-name: left-spin;
+}
+
+.active .circle-clipper.right .circle {
+  -webkit-animation-name: right-spin;
+        animation-name: right-spin;
+}
+
+@-webkit-keyframes left-spin {
+0% {
+  -webkit-transform: rotate(130deg)
+}
+
+50% {
+  -webkit-transform: rotate(-5deg)
+}
+
+to {
+  -webkit-transform: rotate(130deg)
+}
+
+}
+
+@keyframes left-spin {
+0% {
+  transform: rotate(130deg)
+}
+
+50% {
+  transform: rotate(-5deg)
+}
+
+to {
+  transform: rotate(130deg)
+}
+
+}
+
+@-webkit-keyframes right-spin {
+0% {
+  -webkit-transform: rotate(-130deg)
+}
+
+50% {
+  -webkit-transform: rotate(5deg)
+}
+
+to {
+  -webkit-transform: rotate(-130deg)
+}
+
+}
+
+@keyframes right-spin {
+0% {
+  transform: rotate(-130deg)
+}
+
+50% {
+  transform: rotate(5deg)
+}
+
+to {
+  transform: rotate(-130deg)
+}
+
+}
+
+#spinnerContainer.cooldown {
+  -webkit-animation: container-rotate var(--paper-spinner-container-rotation-duration) linear infinite, fade-out var(--paper-spinner-cooldown-duration) cubic-bezier(0.4, 0.0, 0.2, 1);
+        animation: container-rotate var(--paper-spinner-container-rotation-duration) linear infinite, fade-out var(--paper-spinner-cooldown-duration) cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+@-webkit-keyframes fade-out {
+0% {
+  opacity: 1
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+@keyframes fade-out {
+0% {
+  opacity: 1
+}
+
+to {
+  opacity: 0
+}
+
+}
+
+</style>
+  </template>
+</dom-module><iron-iconset-svg name="paper-tabs" size="24" style="display: none;">
+<svg><defs>
+<g id="chevron-left"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></g>
+<g id="chevron-right"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></g>
+</defs></svg>
+</iron-iconset-svg><style>dom-bind,dom-if,dom-repeat{display:none;}</style><script src="chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js" class="js-chromeextensionpkedcjkdefgpdelpbcmbmeomcjbeemfmcast_senderjs"></script><link as="document" rel="preload" href="https://s.ytimg.com/yts/htmlbin/desktop_polymer_sel_auto_svg_home_deferred_v2-vflQTeUuY.html"><meta name="referrer" content="origin-when-cross-origin"><link as="document" rel="import" href="https://s.ytimg.com/yts/htmlbin/desktop_polymer_sel_auto_svg_home_deferred_v2-vflQTeUuY.html"><script src="/yts/jsbin/player_ias-vfliSA6ma/nl_NL/base.js"></script><link id="player-css" rel="stylesheet" href="/yts/cssbin/player-vfl_-euwi/www-player-webp.css"><script src="/yts/jsbin/player_ias-vfliSA6ma/nl_NL/base.js"></script></head>
